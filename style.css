@@ -8,11 +8,6 @@ body {
     
 }
 
-h1 {font-size: 3.5em;}
-h2 {font-size: 2.7em;}
-h3 {font-size: 2em;}
-p {font-size: 1.25em;}
-
 button {
     font-size: 1.5em;
     font-weight: bold;
@@ -36,7 +31,7 @@ button:hover {
 header {
     background-color: rgb(240,240,240);
 }
-
+ 
 header .logo {
     margin: 0%;
     padding: 25px 30px;
@@ -68,14 +63,77 @@ header a {
     
 }
 
+#hero {
+    background-color: black;
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#titulo{
+    color: aliceblue;
+}
+
+
 #tecnologia {
+    margin-top: 40px;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
     background-color: rgb(30,30,30);
     color: white;
+    
+    
+    /* padding: 50px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+}
+.articulo img{
+    width: 400px;
+    height: 200px;
+}
+.articulo{
+    margin-bottom: 40px;
+    display: flex;
+    padding-left: 40px;
+    flex-direction: row ;
+    /* justify-content: center; */
 }
 
-#tecnologia .conteiner {
+#tecnologia h2{
 
+    margin-left: 40px;
 }
 
 
+.titulo {
+    margin-left: 20px;
+    padding: 0px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titulo button{
+    width: 70px;
+    font-size: small;
+    /* margin-left: 70px; */
+}
+
+ h3{
+    /* font-size: medium; */
+    margin-right: 10px;
+    margin-bottom: 30px;
+
+}
+.parrafo {
+    padding: 20px;
+    
+}
 
